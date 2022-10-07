@@ -69,9 +69,9 @@ def Panorama_stitching(image_right, image_left):
         result = cv.warpPerspective(
             image_right, Homography, (image_right.shape[1] + image_left.shape[1], image_right.shape[0]))
         
-        # cv.imshow("warp convert", result)
-        # cv.waitKey(0)
-        # cv.destroyAllWindows()
+        cv.imshow("warp convert", result)
+        cv.waitKey(0)
+        cv.destroyAllWindows()
         # 将左图加入到变换后的右图像的左端即获得最终图像
         result[0:image_left.shape[0], 0:image_left.shape[1]] = image_left
         
