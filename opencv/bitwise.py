@@ -2,15 +2,14 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('1.jpg')
-logo = cv2.imread('opencv.png')
+img = cv2.imread('./images/1.jpg')
+logo = cv2.imread('./images/4.png')
 
 #调整大小
 logo = cv2.resize(logo, (50, 50))
 
 #图像宽度
 imgWidth = img.shape[1]
-
 #logo高度
 logoHeight = logo.shape[0]
 

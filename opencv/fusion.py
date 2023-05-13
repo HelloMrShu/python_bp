@@ -82,8 +82,8 @@ def Panorama_stitching(image_right, image_left):
 if __name__ == '__main__':
 
     # 注意图像顺序
-    m1 = r"C:\Users\Administrator\Desktop\\133.png"
-    m2 = r"C:\Users\Administrator\Desktop\\144.png"
+    m1 = r"./images/2.png"
+    m2 = r"./images/4.png"
 
     imgLeft = cv.imread(m1)
     imgRight = cv.imread(m2)

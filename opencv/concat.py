@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-p1 =r"C:\Users\Administrator\Desktop\\1.jpg"
-p2 =r"C:\Users\Administrator\Desktop\\2.jpg"
-p3 =r"C:\Users\Administrator\Desktop\\3.jpg"
+p1 =r"./images/1.jpg"
+p2 =r"./images/1.jpg"
+p3 =r"./images/1.jpg"
 
 img1 = cv2.imread(p1, cv2.IMREAD_UNCHANGED)
 img2 = cv2.imread(p2, cv2.IMREAD_UNCHANGED)

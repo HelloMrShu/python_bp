@@ -21,7 +21,7 @@ def resetRGB(path, t):
 	
 	return img
 
-path = r"C:\Users\Administrator\Desktop\\1.jpg"
+path = r"./images/1.jpg"
 
 ori = resetRGB(path, "")
 imgb = resetRGB(path, "b")

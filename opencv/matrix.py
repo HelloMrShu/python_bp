@@ -21,7 +21,7 @@ def resetRGB(path, t):
 	
 	return img
 
-path = r"C:\Users\Administrator\Desktop\\little.png"
+path = r"./images/2.png"
 img = cv2.imread(path, cv2.IMREAD_UNCHANGED)
 h, w, l = img.shape
 
