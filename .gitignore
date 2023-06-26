@@ -17,3 +17,5 @@
 # ide config file
 .idea
 .DS_Store
+
+opencv/video_frame/*.jpg
