@@ -6,8 +6,14 @@ import cv2
 # 全局变量
 video_path = './videos/qd.mp4'  # 视频地址
 dst_folder = './video_frame'  # 存放帧图片的位置
-freq = 1  # 帧提取频率
+freq = 25  # 帧提取频率
 video = cv2.VideoCapture()
+fps = video.get(cv2.CAP_PROP_FPS)
+print(f"{fps} frames per second")
+
+frame = video.get(cv2.CAP_PROP_FRAME_COUNT)
+print(frame)
+exit(1)
 
 if not video.open(video_path):
     print("can't open video")
